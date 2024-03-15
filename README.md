@@ -1,7 +1,7 @@
 # Recursão e Memorização
 ## Recursão
 * É um método que permite obter a solução de um problema a partir de outros problemas menores
-* Uma função recursiva deve ter:
+### Uma função recursiva deve ter:
 * **Base**: O **caso trivial** do problema (o caso mais fácil de todos).
 * **Passo**: "Formula" que resolve o **caso geral** do problema. <br>
 * **Exemplo**: olhe a função recursiva fatorial que está no arquivo [recursao_redundante.py](https://github.com/AbnerCerqueira/Recursao_e_Memorizacao/blob/main/recursao_redundante.py)
