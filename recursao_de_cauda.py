@@ -38,3 +38,10 @@ def binario(n):
 def binario(n):
     if n <= 1: return str(n)
     else: return binario(n // 2) + str(n % 2)
+
+# hanoi
+def hanoi(n, origem, auxiliar, destino):
+    if n == 0: return
+    hanoi(n - 1, origem, destino, auxiliar)
+    print(origem, '->', destino)
+    hanoi(n - 1, auxiliar, origem, destino)
