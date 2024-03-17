@@ -26,3 +26,15 @@ def vv(n):
 def resto(a, b):
     if a < b: return a
     else: return resto(a-b, b)
+
+# binario
+def binario(n):
+    if n <= 1: print(n, end ='')
+    else:
+        binario(n // 2)
+        print(n % 2, end = '')
+
+# binario string
+def binario(n):
+    if n <= 1: return str(n)
+    else: return binario(n // 2) + str(n % 2)
