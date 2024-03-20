@@ -18,3 +18,9 @@ def term(n):
 def fibo(n):
     if n < 3: return 1
     else: return fibo(n - 1) + fibo(n - 2)
+
+# triangulo de pascal
+def pascal(i, j):
+    if i <= j: return 1
+    if i == 1 or j == 1: return 1
+    else: return pascal(i - 1, j) + pascal(i - 1, j - 1)
