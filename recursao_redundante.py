@@ -21,6 +21,5 @@ def fibo(n):
 
 # triangulo de pascal
 def pascal(i, j):
-    if i <= j: return 1
-    if i == 1 or j == 1: return 1
+    if j == 1 or i == j: return 1
     else: return pascal(i - 1, j) + pascal(i - 1, j - 1)
